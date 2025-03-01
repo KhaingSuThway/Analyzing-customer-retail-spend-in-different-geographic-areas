@@ -1,2 +1,77 @@
-# Analyzing-customer-retail-spend-in-different-geographic-areas
-This repo contain extracting structured data from free text
+# UK Customer Spend Analysis Project
+
+## Overview
+This data analysis project examines customer spending patterns across different geographic regions in the United Kingdom for ProWidget Systems, a B2B retailer. The analysis focuses on comparing spending volumes between London-based customers and those in other UK regions to identify market opportunities and optimize business strategy.
+
+## Business Objectives
+- Analyze and compare customer spending patterns between London and other UK regions
+- Identify underserved cities with growth potential
+- Determine the geographical distribution of the customer base
+- Provide data-driven insights for strategic business decisions
+
+## Data Sources
+The analysis utilizes two primary data sources:
+- Customer Address Dataset (.csv) - Contains customer location data and total spending information
+- UK Cities Reference Dataset (.csv) - Comprehensive list of UK cities for geographical mapping
+
+## Technologies Used
+- Python
+- Pandas for data manipulation
+- Matplotlib/Seaborn for data visualization
+- Jupyter Notebooks for analysis documentation
+
+## Project Structure
+```
+├── data/
+│   ├── customer_address.csv
+│   └── uk_cities.csv
+├── notebooks/
+│   └── analysis.ipynb
+├── README.md
+└── requirements.txt
+```
+
+## Installation and Setup
+1. Clone this repository
+```bash
+git clone https://github.com/yourusername/Analyzing-customer-retail-spend-in-different-geographic-areas.git
+```
+2. Install required dependencies
+```bash
+pip install -r requirements.txt
+```
+
+## Analysis Approach
+1. Data Cleaning and Preprocessing
+   - Address standardization
+   - Geographic location validation
+   - Spending data normalization
+
+2. Exploratory Data Analysis
+   - Regional spending distribution
+   - Customer concentration analysis
+   - City-wise market penetration
+
+3. Statistical Analysis
+   - Spending patterns comparison
+   - Market share calculation
+   - Growth opportunity identification
+
+## Key Findings
+[To be updated upon analysis completion]
+- Regional spending distribution
+- Underserved market identification
+- Customer base concentration metrics
+
+## Future Improvements
+- Incorporate demographic data for deeper insights
+- Add time series analysis for spending trends
+- Include competitive analysis
+- Develop interactive dashboards
+
+
+
+
+
+
+
