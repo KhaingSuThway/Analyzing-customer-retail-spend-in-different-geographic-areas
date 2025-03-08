@@ -42,26 +42,44 @@ pip install -r requirements.txt
 ```
 
 ## Analysis Approach
-1. Data Cleaning and Preprocessing
-   - Address standardization
+1. Data Cleaning and Preprocessing (Completed)
+   - Address standardization 
+     * Case normalization
+     * Line structure analysis
+     * Address pattern identification
    - Geographic location validation
-   - Spending data normalization
+     * City extraction strategy development
+     * UK cities reference data integration
+     * Reclassification of London addresses using postal codes
+     * Manual update of Hull addresses
+   - Spending data normalization 
+     * Basic statistics analysis completed
+     
 
-2. Exploratory Data Analysis
+2. Exploratory Data Analysis (Pending)
    - Regional spending distribution
    - Customer concentration analysis
    - City-wise market penetration
 
-3. Statistical Analysis
+3. Statistical Analysis (Pending)
    - Spending patterns comparison
    - Market share calculation
    - Growth opportunity identification
 
+## Current Status
+- Completed initial data loading and basic cleaning
+- Implemented address standardization
+- Developed city extraction strategy
+- Performed basic spending analysis
+- Reclassified London addresses using postal codes
+- Updated Hull addresses manually
+- Completed geographic location validation
+- Pending spending data normalization
+
 ## Key Findings
-[To be updated upon analysis completion]
-- Regional spending distribution
-- Underserved market identification
-- Customer base concentration metrics
+- Significant number of addresses reclassified to London
+- Identified and corrected Hull address classification
+- Improved accuracy of geographic data for strategic insights
 
 ## Future Improvements
 - Incorporate demographic data for deeper insights
