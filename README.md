@@ -27,7 +27,8 @@ The analysis utilizes two primary data sources:
 │ ├── uk_cities.csv
 │ └── cleaned_customers_data.csv
 ├── notebooks/
-│ └── analysis.ipynb
+│ ├── analysis.ipynb
+│ └── visualize.ipynb
 ├── README.md
 └── requirements.txt
 ```
@@ -59,8 +60,7 @@ pip install -r requirements.txt
 
 2. Exploratory Data Analysis 
    - Regional spending distribution
-   - Customer concentration analysis
-   - City-wise market penetration
+   
 
 
 
@@ -72,7 +72,9 @@ pip install -r requirements.txt
 - Reclassified London addresses using postal codes
 - Updated Hull addresses manually
 - Completed geographic location validation
-- Pending spending data normalization
+- Spending data normalization
+- Visualize customer spending by city
+- Plot to compare London against the rest of the UK
 
 
 
