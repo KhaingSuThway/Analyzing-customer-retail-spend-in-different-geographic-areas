@@ -23,10 +23,11 @@ The analysis utilizes two primary data sources:
 ## Project Structure
 ```
 ├── data/
-│   ├── customer_address.csv
-│   └── uk_cities.csv
+│ ├── customer_address.csv
+│ ├── uk_cities.csv
+│ └── cleaned_customers_data.csv
 ├── notebooks/
-│   └── analysis.ipynb
+│ └── analysis.ipynb
 ├── README.md
 └── requirements.txt
 ```
@@ -42,7 +43,7 @@ pip install -r requirements.txt
 ```
 
 ## Analysis Approach
-1. Data Cleaning and Preprocessing (Completed)
+1. Data Cleaning and Preprocessing 
    - Address standardization 
      * Case normalization
      * Line structure analysis
@@ -56,15 +57,12 @@ pip install -r requirements.txt
      * Basic statistics analysis completed
      
 
-2. Exploratory Data Analysis (Pending)
+2. Exploratory Data Analysis 
    - Regional spending distribution
    - Customer concentration analysis
    - City-wise market penetration
 
-3. Statistical Analysis (Pending)
-   - Spending patterns comparison
-   - Market share calculation
-   - Growth opportunity identification
+
 
 ## Current Status
 - Completed initial data loading and basic cleaning
@@ -76,16 +74,7 @@ pip install -r requirements.txt
 - Completed geographic location validation
 - Pending spending data normalization
 
-## Key Findings
-- Significant number of addresses reclassified to London
-- Identified and corrected Hull address classification
-- Improved accuracy of geographic data for strategic insights
 
-## Future Improvements
-- Incorporate demographic data for deeper insights
-- Add time series analysis for spending trends
-- Include competitive analysis
-- Develop interactive dashboards
 
 
 
